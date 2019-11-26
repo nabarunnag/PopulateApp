@@ -1,0 +1,8 @@
+---
+applications:
+  - name: populate_app
+    path: build/libs/PopulateApp-1.0-SNAPSHOT-all.jar
+    no-route: true
+    health-check-type: none
+    services:
+      - pcc-benchmark-service
